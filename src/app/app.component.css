@@ -1,0 +1,63 @@
+/* Estilos html*/
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo body*/
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("https://media.istockphoto.com/id/187890560/es/foto/luces-de-mariposa-fractal.jpg?s=1024x1024&w=is&k=20&c=rnhf8UZ-JQBiMvDga7a2xqPk4lLAmIRwelFUGjgA7mA=");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+ }
+ 
+  /* Estilo Encabezado */
+
+  header {
+    background-color: #333; /* Color de fondo del encabezado */
+    color: white; /* Color del texto en el encabezado */
+    text-align: center;
+    padding: 20px;
+    margin: 0; 
+  }
+  
+  /* Estilo imagen redonda */
+
+  img.imagen-redonda {
+    border-radius: 50%; /* Hace que la imagen sea redonda */
+    border: 3px solid white;
+    width: 100px; /* Ajusta el tamaño de la imagen según tus necesidades */
+    height: 100px; /* Ajusta la altura */
+    border-color: white;  
+  }
+  
+  /* Estilo Tarjeta Blanca */
+  .tarjeta-blanca {
+    background-color: white;
+    border: 2px solid #ddd; /* Borde de la tarjeta */
+    padding: 10px;
+    margin : 50px;
+  }
+  
+  /* Estilo Tarjeta Gris */
+
+  .tarjeta-gris {
+    background-color: #ccc;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer; /* Cambia el cursor a un puntero */
+  }
+  
+  /* Estilo al Pasar el Cursor sobre las Tarjeta Gris */
+  
+  .tarjeta-gris:hover {
+    background-color: red;
+    color: white;
+    cursor: pointer;  
+  }
+  
